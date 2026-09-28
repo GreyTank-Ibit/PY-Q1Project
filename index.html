@@ -19,14 +19,14 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #284d87;
-    color: #222;
+    background-color: #000000;
+    color: #000000;
 }
 
 nav {
     height: 32px;
-    background-color: #0d2b49;
-    color: white;
+    background-color: #000000;
+    color: #ffffff;
     display: flex;
     align-items: center;
     padding: 0 18px;
@@ -39,7 +39,7 @@ nav .logo {
 }
 
 nav a {
-    color: #ddd;
+    color: #ffffff;
     text-decoration: none;
     margin-left: 15px;
 }
@@ -51,17 +51,18 @@ main {
 }
 
 .card {
-    background-color: white;
+    background-color: #ffffff;
     width: 368px;
-    border-radius: 9px;
+    border: 2px solid #000000;
+    border-radius: 0;
     overflow: hidden;
 }
 
 .card-header {
-    background: linear-gradient(100deg, #087cff, #6511ed);
-    color: white;
+    background-color: #000000;
+    color: #ffffff;
     text-align: center;
-    padding: 13px;
+    padding: 15px;
 }
 
 .card-header .icon {
@@ -92,27 +93,32 @@ label {
 input {
     width: 100%;
     padding: 7px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    border: 1px solid #000000;
+    border-radius: 0;
     margin-bottom: 9px;
     font-size: 9px;
 }
 
 button {
     width: 100%;
-    border: none;
-    border-radius: 5px;
+    border: 2px solid #000000;
+    border-radius: 0;
     padding: 8px;
-    background: linear-gradient(100deg, #6da5f5, #9b54ef);
-    color: white;
+    background-color: #000000;
+    color: #ffffff;
     font-weight: bold;
     cursor: pointer;
     margin-top: 2px;
 }
 
+button:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
 hr {
     border: none;
-    border-top: 1px solid #ddd;
+    border-top: 1px solid #000000;
     margin: 12px 0;
 }
 
@@ -120,13 +126,13 @@ hr {
     text-align: center;
     font-size: 10px;
     font-weight: bold;
-    color: #444;
+    color: #000000;
     min-height: 18px;
 }
 
 footer {
-    background-color: #0d2b49;
-    color: white;
+    background-color: #000000;
+    color: #ffffff;
     text-align: center;
     padding: 10px;
     font-size: 9px;
@@ -196,7 +202,7 @@ footer {
 </main>
 
 <footer>
-     SKU Generator — 1st Quarter Project
+    &lt;/&gt; SKU Generator — 1st Quarter Project
 </footer>
 
 <script type="py" src="sku.py"></script>
